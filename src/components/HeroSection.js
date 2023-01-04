@@ -12,7 +12,7 @@ function HeroSection() {
             <input className={styles.search_input} />
             <button className={styles.search_button}>click</button>
           </div>
-        </div>{" "}
+        </div>
       </div>
       <div className={styles.right_section}>
         area for results or any other things
