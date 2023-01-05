@@ -39,7 +39,7 @@ function HeroSection() {
               data_demo?.map((data) => {
                 return (
                   <p className={styles.single} key={data}>
-                    {data}
+                    {data.toFixed(4)}
                   </p>
                 );
               })}

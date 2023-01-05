@@ -28,6 +28,8 @@
 /* hero section styles  */
 
 .hero_section {
+  display: flex;
+  justify-content: space-between;
   height: 95vh;
   display: flex;
   width: 100%;
@@ -46,7 +48,7 @@
 
 .med_section {
   border-right: 1px solid rgba(128, 128, 128, 0.286);
-  width: 60%;
+  width: 1000px;
 }
 
 .med_container {
@@ -60,7 +62,7 @@
 .float_value {
   /* background-color: red; */
   height: 10rem;
-  width: 50rem;
+  max-width: 50rem;
   padding: 1rem 2rem;
   display: flex;
   gap: 2rem;
@@ -69,6 +71,7 @@
 .single {
   /* background-color: red; */
   height: 6vh;
+  max-width: 20rem;
   padding: 1rem 1.6rem;
   border: 1px solid var(--color_for_whitebg);
 }
@@ -107,5 +110,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 20%;
 }
